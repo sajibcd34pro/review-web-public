@@ -1,0 +1,30 @@
+.body{
+    height: 100%;
+
+}
+.moving{
+    position: fixed ;
+    height: 100%;
+    width: 100%;
+
+}
+
+.moving .moving-bg{
+    box-sizing: content-box;
+    padding-bottom: 300px;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-image: url('../../images/about.jpg');
+    background-size: cover;
+    animation: moving 30s linear infinite ;
+
+}
+/* @keyframes moving{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-300px);
+    }
+} */
